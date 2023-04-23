@@ -1,0 +1,53 @@
+body{
+    font-family: 'Poltawski Nowy', serif;
+    background-color: #DAF5FF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 35px;
+    color: #13005A;
+}
+
+h3{
+    font-weight: 400;
+    margin: 20px 0 20px;
+    color: #13005A;
+    font-size: 2rem;
+}
+
+#qrcode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#website{
+    border:solid 1px #ccc;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#size{
+    font-size: 1.2rem;
+    border:solid 1px #ccc;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#generate{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    background-color: #3A1078;
+    color: white;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+
